@@ -35,7 +35,7 @@ public class ConsoleLogsCapture {
 		List<LogEntry> logs=entry.getAll();// LogEntryObject - getAll method return all logs in List
 		for (LogEntry e : logs) // iterating through list and printing each log message
 		{
-			System.out.println(e.getMessage());
+			System.out.println(e.getMessage());// Log4j
 		}
 		driver.close();
 
